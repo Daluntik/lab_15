@@ -1,0 +1,46 @@
+.homepage {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.homepage_section {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.homepage_aside {
+  img {
+    width: 100%;
+    border-radius: 8px;
+  }
+}
+
+.homepage_article {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 0 2rem;
+
+  h1 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+
+  p {
+    line-height: 1.8;
+    color: #555;
+  }
+}
+
+.homepage_sidebar {
+  h3 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+
+  p {
+    color: #555;
+  }
+}
