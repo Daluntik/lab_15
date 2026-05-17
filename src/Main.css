@@ -1,7 +1,0 @@
-.main {
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  gap: 0;
-  flex: 1;
-  background-color: #ecf0f1;
-}

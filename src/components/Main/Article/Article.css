@@ -1,0 +1,18 @@
+.article {
+  display: grid;
+  align-content: start;
+  padding: 20px;
+  border-right: 1px solid #999999;
+  background-color: #ffffff;
+}
+
+.article h1 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 28px;
+}
+
+.article p {
+  font-size: 18px;
+  line-height: 1.5;
+}

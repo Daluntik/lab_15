@@ -1,14 +1,14 @@
-import Section from './Section';
-import Article from './Article';
-import Aside from './Aside';
-import './Main.css';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 
-export default function Main() {
-  return (
-    <main className="main">
-      <Section />
-      <Article />
-      <Aside />
-    </main>
-  );
-}
+import App from './App.jsx';
+import './styles/normalize.css';
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </StrictMode>
+);

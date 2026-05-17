@@ -1,0 +1,19 @@
+.footer {
+  display: grid;
+  padding: 16px 24px;
+  text-align: center;
+  background-color: #eeeeee;
+  border-top: 1px solid #999999;
+}
+
+.footer__content {
+  display: grid;
+  gap: 4px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 4px 0;
+}

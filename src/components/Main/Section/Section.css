@@ -1,0 +1,13 @@
+.section {
+  display: grid;
+  align-content: start;
+  padding: 20px;
+  border-right: 1px solid #999999;
+  background-color: #f8f8f8;
+}
+
+.section__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

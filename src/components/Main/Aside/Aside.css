@@ -1,0 +1,12 @@
+.aside {
+  display: grid;
+  align-content: start;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.aside h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 22px;
+}
